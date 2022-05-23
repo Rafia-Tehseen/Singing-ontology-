@@ -1,0 +1,5776 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.singonto.org#"
+     xml:base="http://www.singonto.org"
+     xmlns:su="http://su.edu.pk/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.singonto.org/#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.singonto.org#bluehasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#bluehasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#bluesdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#bluesdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#blueshasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#blueshasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Blues"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#BassGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Bassoon"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DoubleBass"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DrumKit"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Saxophone"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Viola"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#blueshasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#blueshasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Blues"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#U.S.A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#bluesuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#bluesuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#contemporaryfolkdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#contemporaryfolkdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#contemporaryfolkhasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#contemporaryfolkhasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Accordion"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Banjo"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Fiddle"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Harmonica"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mandolin"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ukulele"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Violin"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Xylophone"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Zither"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#contemporaryfolkhasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#contemporaryfolkhasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#contemporaryfolkhasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#contemporaryfolkhasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Australia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Canada"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Germany"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Sweden"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#U.S.A"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#UnitedKingdom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#contemporaryfolkuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#contemporaryfolkuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#countrydiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#countrydiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#countryhasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#countryhasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Country"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Accordion"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Banjo"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DrumKit"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Fiddle"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Harmonica"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mandolin"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Paino"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Viola"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Violin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#countryhasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#countryhasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#countryhasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#countryhasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Country"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Australia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Canada"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#India"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Iran"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ireland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Japan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mexico"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Netherland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Philippines"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Poland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Sweden"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#UnitedKingdom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#countryuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#countryuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#easylisteningdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#easylisteningdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#easylisteninghasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#easylisteninghasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#EasyListening"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#BassGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Bassoon"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Clarinet"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DoubleBass"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DrumKit"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#FrenchHorn"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Timpani"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Trumpet"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Viola"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Violin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#easylisteninghasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#easylisteninghasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#easylisteninghasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#easylisteninghasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#easylisteninguseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#easylisteninguseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#eclectronicmusichasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#eclectronicmusichasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#electronicmusicdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#electronicmusicdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#electronicmusichasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#electronicmusichasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#AlphaSphere"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ContinuumFingerboard"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#EigenSharp"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicKeyboard"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Kaosscilator"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#RolandOctapad"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#TheReactable"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#TheXthSense"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Theremin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#electronicmusichasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#electronicmusichasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Australia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#China"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Germany"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Itlay"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Japan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Singapore"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SouthKorea"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Taiwan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#U.S.A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#electronicmusicuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#electronicmusicuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hasCompany -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hasCompany">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Songs"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Production_company"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hasProducer -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hasProducer">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Songs"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Producer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hasRecordType -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hasRecordType">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Songs"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#RecordType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hasSinger -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hasSinger">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Songs"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Artist"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hasWriter -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hasWriter">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Songs"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SongWriter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hiphopdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hiphopdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hiphophasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hiphophasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#HipHop"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DrumKit"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Synthesizer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hiphophasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hiphophasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hiphophasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hiphophasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#HipHop"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Albania"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Algeria"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Angola"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Australia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Austria"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Azerbaijan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Bangladash"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Belgium"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Benin"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#BosniaAndHerzegovina"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Botswana"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Brazil"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#BruneiDarussalam"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Bulgaria"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Canada"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#China"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Colombia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Croatia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Cuba"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Czechia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Dominica"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Egypt"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElSalvador"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Finland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#France"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Gambia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Germany"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ghana"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Greece"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Haiti"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#HongKong"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Hungry"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Iceland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#India"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Indonesia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Iran"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ireland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Israel"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Itlay"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Japan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Kenya"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Labnan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Malaysia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mauritania"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mexico"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Montenegro"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Morocco"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Namibia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Nepal"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#NewZealand"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Nigeria"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Norway"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Pakistan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Philippines"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Portugal"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Romania"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Russia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Senegal"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Serbia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Singapore"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Slovakia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Slovenia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SouthAfrica"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SouthKorea"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Spain"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SriLanka"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#StateOfPalestine"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SuadiaAradia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Sweden"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Switzerland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Taiwan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Tanzania"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Thailand"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Togo"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Turkey"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#U.S.A"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ukraine"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Yamen"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Zambia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Zimbabwe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#hiphopuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#hiphopuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#inLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#inLanguage">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Songs"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#isReleasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#isReleasedOn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Songs"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Released"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#jazzdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#jazzdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#jazzhasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#jazzhasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Jazz"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Clarinet"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Harmonica"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Paino"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Saxophone"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Trombone"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Trumpet"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Viola"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Whamola"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Xylophone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#jazzhasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#jazzhasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#jazzhasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#jazzhasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Jazz"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Albania"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Armenia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Australia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Azerbaijan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Belgium"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#BosniaAndHerzegovina"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Brazil"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Bulgaria"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Canada"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Croatia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Cuba"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Denmark"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#France"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Germany"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Haiti"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#India"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Iran"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Itlay"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Japan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Malawi"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mexico"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Montenegro"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Netherland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#NorthMacedonia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Poland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Serbia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Slovakia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SouthAfrica"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Spain"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Sweden"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#U.S.A"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#UnitedKingdom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#jazzuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#jazzuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#popdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#popdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#pophasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#pophasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Pop"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#pophasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#pophasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#pophasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#pophasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Pop"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Austria"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#China"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Colombia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#France"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#HongKong"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#India"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Indonesia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Iran"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Itlay"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Japan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Malaysia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mexico"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Morocco"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Netherland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Pakistan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Philippines"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Russia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SouthAmerica"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SouthKorea"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Sweden"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Taiwan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Thailand"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Turkey"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#UnitedKingdom"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Vietnam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#popuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#popuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#rockdiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#rockdiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#rockhasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#rockhasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Rock"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#BassGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DrumKit"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicGuitar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#rockhasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#rockhasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#rockhasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#rockhasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Rock"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Argentina"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Armenia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Australia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Bangladash"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Belarus"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Belgium"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#BosniaAndHerzegovina"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Brazil"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Canada"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Chile"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#China"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Colombia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Croatia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Cuba"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Denmark"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DominicanRepublic"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ecuador"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Estonia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Finland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#France"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Germany"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Greece"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Guatemala"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Haiti"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Hungry"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Iceland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#India"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Indonesia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Iran"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ireland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Israel"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Itlay"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Japan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Latvia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Lithuania"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Malaysia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Mexico"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Nepal"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#NewZealand"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Norway"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Pakistan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Peru"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Philippines"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Poland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Portugal"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#PuertoRico"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Serbia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Slovenia"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SouthKorea"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Spain"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#SriLanka"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Sweden"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Switzerland"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Taiwan"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Thailand"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Turkey"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Ukraine"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#UnitedKingdom"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Venezuela"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Zambia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#rockuseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#rockuseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#souldiscoveredIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#souldiscoveredIn">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#soulhasInstruments -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#soulhasInstruments">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Soul"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DoubleBass"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#DrumKit"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicGuitar"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#ElectronicKeyboard"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Paino"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Saxophone"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Trombone"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Trumpet"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Viola"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Violin"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#soulhasOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#soulhasOrigin">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#soulhasRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#soulhasRegion">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Soul"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#U.S.A"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org#souluseVocalTechniques -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org#souluseVocalTechniques">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.singonto.org/#popHasSynth -->
+
+    <owl:ObjectProperty rdf:about="http://www.singonto.org/#popHasSynth">
+        <rdfs:subPropertyOf rdf:resource="http://www.singonto.org#pophasInstruments"/>
+        <rdfs:domain rdf:resource="http://www.singonto.org#Pop"/>
+        <rdfs:range rdf:resource="http://www.singonto.org#Synthesizer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.singonto.org#currentStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.singonto.org#currentStatus">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Singers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.singonto.org#dateOfBirth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.singonto.org#dateOfBirth">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Singers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.singonto.org#dateOfDeath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.singonto.org#dateOfDeath">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Singers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.singonto.org#otherName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.singonto.org#otherName">
+        <rdfs:domain rdf:resource="http://www.singonto.org#Singers"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#ContemporaryR&amp;B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#ContemporaryR&amp;B">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#CoteD&apos;lvoire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#CoteD&apos;lvoire">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#Jerkin&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#Jerkin&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#Jew&apos;sHarp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#Jew&apos;sHarp">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#Vocal/singingTechnique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rafia/ontologies/2022/4/untitled-ontology-53#Vocal/singingTechnique"/>
+    
+
+
+    <!-- http://www.singonto.org#Accordion -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Accordion">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AcidJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AcidJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AcidRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AcidRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AfghaniGuitar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AfghaniGuitar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Afghanistan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Afghanistan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Africa -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Africa">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AfricanBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AfricanBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AfroCuban -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AfroCuban">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AfroPunk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AfroPunk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AfroRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AfroRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Albania -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Albania">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Algeria -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Algeria">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Alghoza -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Alghoza">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AlphaSphere -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AlphaSphere">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AlternativeCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AlternativeCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AlternativeDance -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AlternativeDance">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AlternativeHiphop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AlternativeHiphop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AlternativeRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AlternativeRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ambient -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ambient">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AmericanFolkRevival -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AmericanFolkRevival">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Americana -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Americana">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Andorra -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Andorra">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Angola -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Angola">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Anguilla -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Anguilla">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Anti-Folk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Anti-Folk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AntiguaAndBarbuda -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AntiguaAndBarbuda">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ArenaRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ArenaRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Argentina -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Argentina">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Armenia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Armenia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ArtPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ArtPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ArtRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ArtRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Artist -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Artist"/>
+    
+
+
+    <!-- http://www.singonto.org#Aruba -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Aruba">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Asia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Asia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Australia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Australia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AustralianCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AustralianCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Austria -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Austria">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#AvantGradeJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#AvantGradeJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Azerbaijan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Azerbaijan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BackgroundMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BackgroundMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bagpipes -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bagpipes">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bahrain -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bahrain">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BakersfielfSound -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BakersfielfSound">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bangladash -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bangladash">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Banjo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Banjo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Baracoco -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Baracoco">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Barbados -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Barbados">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BassGuitar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BassGuitar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BassMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BassMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bassoon -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bassoon">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BeautifulMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BeautifulMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bebop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bebop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Behamas -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Behamas">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Belarus -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Belarus">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Belgium -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Belgium">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Belize -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Belize">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Benin -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Benin">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Berimbau -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Berimbau">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bermuda -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bermuda">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bhutan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bhutan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BlueGrass -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BlueGrass">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Blues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Blues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BluesRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BluesRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BluesShouter -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BluesShouter">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bolivia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bolivia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bongo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bongo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BoomBap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BoomBap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BosniaAndHerzegovina -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BosniaAndHerzegovina">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Botswana -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Botswana">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bounce -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bounce">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BoxDrum -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BoxDrum">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Brazil -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Brazil">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Breakbeat -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Breakbeat">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BrillBuilding -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BrillBuilding">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BritPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BritPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BritishBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BritishBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BritishDanceBand -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BritishDanceBand">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BritishFolkRevival -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BritishFolkRevival">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BritishHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BritishHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BritishVirginIslands -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BritishVirginIslands">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BrooklynDrill -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BrooklynDrill">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BruneiDarussalam -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BruneiDarussalam">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BubbleGum -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BubbleGum">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Bulgaria -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Bulgaria">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#BulinaFaso -->
+
+    <owl:Class rdf:about="http://www.singonto.org#BulinaFaso">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Burundi -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Burundi">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CaboVerde -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CaboVerde">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cajun -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cajun">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cambodia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cambodia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cameroon -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cameroon">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Canada -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Canada">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Canadianblues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Canadianblues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CapeJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CapeJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CaribbeanNetherlands -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CaribbeanNetherlands">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CaymanIsland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CaymanIsland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cello -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cello">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CelticMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CelticMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CentralAfricanRepublic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CentralAfricanRepublic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Chad -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Chad">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Chalga -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Chalga">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChamberJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChamberJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChannelIsland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChannelIsland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChapHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChapHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChicagoBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChicagoBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChicanoRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChicanoRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Chile -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Chile">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChillOut -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChillOut">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Chimta -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Chimta">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#China -->
+
+    <owl:Class rdf:about="http://www.singonto.org#China">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChoppedAndScrewed -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChoppedAndScrewed">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Chopper -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Chopper">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChorAnglais -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChorAnglais">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChristianCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChristianCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ChristianHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ChristianHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CinematicSoul -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CinematicSoul">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Clarinet -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Clarinet">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ClassicFemaleBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ClassicFemaleBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Classification -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Classification"/>
+    
+
+
+    <!-- http://www.singonto.org#Clavichord -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Clavichord">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CloseHarmony -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CloseHarmony">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CloudRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CloudRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Colombia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Colombia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ComedyHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ComedyHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Comoros -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Comoros">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ComtemporaryFolk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ComtemporaryFolk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ConsciousHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ConsciousHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ContinentalJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ContinentalJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ContinuumFingerboard -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ContinuumFingerboard">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CoolJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CoolJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cornet -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cornet">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Corrido -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Corrido">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CostaRica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CostaRica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Country -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Country">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CountryBlue -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CountryBlue">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CountryBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CountryBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CountryPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CountryPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CountryRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CountryRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CountryRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CountryRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CringePop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CringePop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Croatia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Croatia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CrossoverJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CrossoverJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Crunk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Crunk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#CrunkCore -->
+
+    <owl:Class rdf:about="http://www.singonto.org#CrunkCore">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cuba -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cuba">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Curacao -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Curacao">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cymbal -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cymbal">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Cyprus -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Cyprus">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Czechia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Czechia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DancePop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DancePop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Dansband -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Dansband">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DarkJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DarkJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DeltaBLues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DeltaBLues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DemocraticRepublicOfTheCongo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DemocraticRepublicOfTheCongo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Denmark -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Denmark">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DetroitBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DetroitBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Dhime -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Dhime">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Didgeridoo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Didgeridoo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DirtyRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DirtyRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Disco -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Disco">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DiscoEdits -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DiscoEdits">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Dixieland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Dixieland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Dizi -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Dizi">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Djibouti -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Djibouti">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Dominica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Dominica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DominicanRepublic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DominicanRepublic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DoubleBass -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DoubleBass">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DrillMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DrillMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DrumAndBass -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DrumAndBass">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#DrumKit -->
+
+    <owl:Class rdf:about="http://www.singonto.org#DrumKit">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Dub -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Dub">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EastCoastHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EastCoastHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EasyListening -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EasyListening">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ecuador -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ecuador">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Egypt -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Egypt">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EigenSharp -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EigenSharp">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ektara -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ektara">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElSalvador -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElSalvador">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectroPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectroPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectroSwing -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectroSwing">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectroacousticMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectroacousticMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectronicBLues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectronicBLues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectronicGuitar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectronicGuitar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectronicKeyboard -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectronicKeyboard">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectronicMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectronicMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ElectronicRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ElectronicRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Electronica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Electronica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EquatorialGuinea -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EquatorialGuinea">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Erhu -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Erhu">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Eritrea -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Eritrea">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Esraj -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Esraj">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Estonia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Estonia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Eswatini -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Eswatini">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EthinicElectronica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EthinicElectronica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EthioJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EthioJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ethiopia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ethiopia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EthnoJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EthnoJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Euphonium -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Euphonium">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#European -->
+
+    <owl:Class rdf:about="http://www.singonto.org#European">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#EuropeanFreeJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#EuropeanFreeJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ExperimentalRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ExperimentalRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FaeroIslands -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FaeroIslands">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FalklandIslands -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FalklandIslands">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Fiddle -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Fiddle">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Fiji -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Fiji">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Filk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Filk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Finland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Finland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Florguitar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Florguitar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Flute -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Flute">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FolkAmericana -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FolkAmericana">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FolkRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FolkRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#France -->
+
+    <owl:Class rdf:about="http://www.singonto.org#France">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FreakFolk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FreakFolk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FreeFunk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FreeFunk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FreeJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FreeJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FreestyleRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FreestyleRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FrenchGuiana -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FrenchGuiana">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FrenchHorn -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FrenchHorn">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FunkFusionGenres -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FunkFusionGenres">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FunkRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FunkRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#FurnitureMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#FurnitureMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#G-Funk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#G-Funk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Gabon -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Gabon">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Gambia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Gambia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GangstaRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GangstaRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GarageRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GarageRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GeekRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GeekRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Georgia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Georgia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Germany -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Germany">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ghana -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ghana">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ghatam -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ghatam">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Gibraltar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Gibraltar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GlamRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GlamRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GlassHarmonica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GlassHarmonica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Glockenspiel -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Glockenspiel">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Gong -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Gong">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GospelBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GospelBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GothicRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GothicRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Greece -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Greece">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Greenland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Greenland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Grenada -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Grenada">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Guadeloupe -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Guadeloupe">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Guatemala -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Guatemala">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Guinea -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Guinea">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Guinea-Bissau -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Guinea-Bissau">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Guqin -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Guqin">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Guyana -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Guyana">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Guzheng -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Guzheng">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#GypsyJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#GypsyJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Haiti -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Haiti">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HammeredDulcimer -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HammeredDulcimer">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Hang -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Hang">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HardBop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HardBop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HardStyle -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HardStyle">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Hardcore -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Hardcore">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HardcoreHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HardcoreHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Harmonica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Harmonica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Harmonium -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Harmonium">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Harp -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Harp">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Harpsichord -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Harpsichord">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Hauntology -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Hauntology">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HillCountryBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HillCountryBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HipHopChoppedAndScrewed -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HipHopChoppedAndScrewed">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HipHopFusionGenres -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HipHopFusionGenres">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HipsterHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HipsterHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Hokum -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Hokum">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HokumBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HokumBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HolySee -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HolySee">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Honduras -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Honduras">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HongKong -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HongKong">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HonkyTonk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HonkyTonk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Horrorcore -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Horrorcore">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HouseMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HouseMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Hulusi -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Hulusi">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Hungry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Hungry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#HurdyGurdy -->
+
+    <owl:Class rdf:about="http://www.singonto.org#HurdyGurdy">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Hyphy -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Hyphy">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Iceland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Iceland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#India -->
+
+    <owl:Class rdf:about="http://www.singonto.org#India">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IndianBanjo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IndianBanjo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IndieFolk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IndieFolk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IndieRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IndieRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IndoJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IndoJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Indonesia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Indonesia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Industrial -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Industrial">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IndustrialFolk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IndustrialFolk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IndustrialRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IndustrialRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Instrument -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Instrument"/>
+    
+
+
+    <!-- http://www.singonto.org#InstrumentalCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#InstrumentalCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#InstrumentalHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#InstrumentalHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#InstrumentalRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#InstrumentalRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IntelligentDanceMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IntelligentDanceMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Iran -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Iran">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Iraq -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Iraq">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ireland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ireland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#IsleOfMan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#IsleOfMan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Israel -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Israel">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Itlay -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Itlay">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JamRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JamRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Japan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Japan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Jazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Jazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JazzBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JazzBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JazzFunk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JazzFunk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JazzFusion -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JazzFusion">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JazzRapJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JazzRapJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JazzRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JazzRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JewishHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JewishHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Jordan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Jordan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#JumpBlue -->
+
+    <owl:Class rdf:about="http://www.singonto.org#JumpBlue">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Jungle -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Jungle">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Kalimba -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Kalimba">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#KansasCityBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#KansasCityBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Kaosscilator -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Kaosscilator">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Kazakhstan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Kazakhstan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Kenya -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Kenya">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#KhansasCityJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#KhansasCityJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Kiribati -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Kiribati">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Kuwait -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Kuwait">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Kyrgyzstan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Kyrgyzstan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Labnan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Labnan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Language -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Language"/>
+    
+
+
+    <!-- http://www.singonto.org#Laos -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Laos">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#LatinHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#LatinHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#LatinJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#LatinJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#LatinSoul -->
+
+    <owl:Class rdf:about="http://www.singonto.org#LatinSoul">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#LatinTrap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#LatinTrap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Latvia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Latvia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Lesotho -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Lesotho">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Liberia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Liberia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Liechyenstein -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Liechyenstein">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#LightMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#LightMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Lithuania -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Lithuania">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#LofiHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#LofiHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#LousisianaBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#LousisianaBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Lute -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Lute">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Luxembourg -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Luxembourg">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Lyre -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Lyre">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MBase -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MBase">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Macao -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Macao">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Madagascar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Madagascar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MafiosoRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MafiosoRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MaimiBass -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MaimiBass">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MainstreamJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MainstreamJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Malawi -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Malawi">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Malaysia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Malaysia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Maldives -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Maldives">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mali -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mali">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Malta -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Malta">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mandolin -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mandolin">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mariachi -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mariachi">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Marimba -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Marimba">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MarshallIsland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MarshallIsland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Martinique -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Martinique">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mauritania -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mauritania">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mauritius -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mauritius">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mayanmmar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mayanmmar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mayotte -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mayotte">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Melodica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Melodica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MemphisBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MemphisBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MemphisRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MemphisRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mexico -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mexico">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Micronesia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Micronesia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MiddleOfTheRoad -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MiddleOfTheRoad">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ModalJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ModalJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Moldova -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Moldova">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Monaco -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Monaco">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mongolia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mongolia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Montenegro -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Montenegro">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Montserrat -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Montserrat">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Morocco -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Morocco">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Motown -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Motown">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Mozambique -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Mozambique">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#MumbleRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#MumbleRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Namibia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Namibia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NashvillwSound -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NashvillwSound">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Nauru -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Nauru">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NeoBopJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NeoBopJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NeoFolk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NeoFolk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NeoSoul -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NeoSoul">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NeoSwing -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NeoSwing">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NeotraditionalCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NeotraditionalCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Nepal -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Nepal">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Nerdcore -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Nerdcore">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Netherland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Netherland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NewAgeMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NewAgeMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NewMexico -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NewMexico">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NewOrleansBlue -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NewOrleansBlue">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NewZealand -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NewZealand">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Nicaragua -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Nicaragua">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Niger -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Niger">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Nigeria -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Nigeria">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Nightcore -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Nightcore">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NoiseMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NoiseMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NorthAmerica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NorthAmerica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NorthKorea -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NorthKorea">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NorthMacedonia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NorthMacedonia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Norway -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Norway">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#NuJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#NuJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Oboe -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Oboe">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ocarina -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ocarina">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Oceania -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Oceania">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Octobass -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Octobass">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Oman -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Oman">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#OperaticPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#OperaticPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#OrchestralJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#OrchestralJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Orchestralop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Orchestralop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Organ -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Organ">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Origin -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Origin"/>
+    
+
+
+    <!-- http://www.singonto.org#Otamatone -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Otamatone">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Oud -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Oud">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#OutlawCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#OutlawCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Paino -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Paino">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Pakistan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Pakistan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Palau -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Palau">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PanPipes -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PanPipes">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Panama -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Panama">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Panduri -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Panduri">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PapuaNewGuinea -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PapuaNewGuinea">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Paraguay -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Paraguay">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PeidmontBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PeidmontBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Pennwhistle -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Pennwhistle">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Peru -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Peru">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Philippines -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Philippines">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Phonk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Phonk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Piccolo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Piccolo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Pipa -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Pipa">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Plugg -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Plugg">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Plunderphonics -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Plunderphonics">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Poland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Poland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PoliticalHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PoliticalHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Pop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Pop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Portugal -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Portugal">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PostBop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PostBop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Producer -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Producer"/>
+    
+
+
+    <!-- http://www.singonto.org#Production_company -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Production_company"/>
+    
+
+
+    <!-- http://www.singonto.org#ProgressiveCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ProgressiveCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ProgressiveFolk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ProgressiveFolk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ProgressiveRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ProgressiveRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ProgressiveRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ProgressiveRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ProtestSong -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ProtestSong">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PsychedelicFolk -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PsychedelicFolk">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PsychedelicRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PsychedelicRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PuertoRico -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PuertoRico">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Pungi -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Pungi">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PunkBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PunkBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PunkJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PunkJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#PunkRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#PunkRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Qatar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Qatar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#QuietStorm -->
+
+    <owl:Class rdf:about="http://www.singonto.org#QuietStorm">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Rabab -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Rabab">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RecordType -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RecordType"/>
+    
+
+
+    <!-- http://www.singonto.org#Recorder -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Recorder">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RedDirt -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RedDirt">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Region -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Region"/>
+    
+
+
+    <!-- http://www.singonto.org#Released -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Released"/>
+    
+
+
+    <!-- http://www.singonto.org#ReligiousHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ReligiousHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RetroSoul -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RetroSoul">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Soul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Reunion -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Reunion">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RhythmAndBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RhythmAndBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RoadRap -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RoadRap">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Rock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Rock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RockNRoll -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RockNRoll">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Rockabilly -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Rockabilly">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RolandOctapad -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RolandOctapad">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Romania -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Romania">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#RootsRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#RootsRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Russia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Russia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Rwanda -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Rwanda">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SadPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SadPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaintBarthelemy -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaintBarthelemy">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaintHelena -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaintHelena">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaintKittsAndNevis -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaintKittsAndNevis">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaintLucia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaintLucia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaintMartin -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaintMartin">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaintPierreAndMiquelon -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaintPierreAndMiquelon">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaintVincentAndTheGrenadines -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaintVincentAndTheGrenadines">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Samoa -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Samoa">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SanMarino -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SanMarino">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Santoor -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Santoor">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SaoTomeAndPrinciple -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SaoTomeAndPrinciple">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sarangi -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sarangi">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sarinda -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sarinda">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Saxophone -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Saxophone">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Schlager -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Schlager">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Senegal -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Senegal">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Serbia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Serbia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sertanejo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sertanejo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Seychelles -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Seychelles">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Shehnai -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Shehnai">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sheng -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sheng">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SierraLeone -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SierraLeone">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Singapore -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Singapore">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Singers -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Singers"/>
+    
+
+
+    <!-- http://www.singonto.org#SintMaarten -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SintMaarten">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sitar -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sitar">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SkaJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SkaJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Skiffle -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Skiffle">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SleazeRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SleazeRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Slovakia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Slovakia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Slovenia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Slovenia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SmoothJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SmoothJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SnapMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SnapMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SoftRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SoftRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SolomonIsland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SolomonIsland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Somalia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Somalia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SongWriter -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SongWriter"/>
+    
+
+
+    <!-- http://www.singonto.org#Songs -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Songs"/>
+    
+
+
+    <!-- http://www.singonto.org#SophistiPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SophistiPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SothSuden -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SothSuden">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Soul -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Soul">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SoulBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SoulBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SoulJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SoulJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SouternHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SouternHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SouthAfrica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SouthAfrica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SouthAmerica -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SouthAmerica">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Origin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SouthKorea -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SouthKorea">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SpaceRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SpaceRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Spain -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Spain">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SriLanka -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SriLanka">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#St.LouisBLue -->
+
+    <owl:Class rdf:about="http://www.singonto.org#St.LouisBLue">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#StateOfPalestine -->
+
+    <owl:Class rdf:about="http://www.singonto.org#StateOfPalestine">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#StonerRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#StonerRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#StraightAheadJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#StraightAheadJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#StrideJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#StrideJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Stylophone -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Stylophone">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SuadiaAradia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SuadiaAradia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sudan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sudan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SungPeotry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SungPeotry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ComtemporaryFolk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SunshinePop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SunshinePop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SurfRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SurfRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Suriname -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Suriname">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Suroz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Suroz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sursinger -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sursinger">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#SwapBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#SwapBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Sweden -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Sweden">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Swing -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Swing">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Switzerland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Switzerland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Synthesizer -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Synthesizer">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Syria -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Syria">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tabla -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tabla">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Taiwan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Taiwan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tajikistan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tajikistan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tambourine -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tambourine">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tanzania -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tanzania">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Techno -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Techno">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TecnoBrega -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TecnoBrega">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TeenPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TeenPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tejano -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tejano">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TexasCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TexasCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TexaxBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TexaxBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Thailand -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Thailand">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TheReactable -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TheReactable">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TheXthSense -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TheXthSense">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Theremin -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Theremin">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#ThirdStream -->
+
+    <owl:Class rdf:about="http://www.singonto.org#ThirdStream">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Thundertube -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Thundertube">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Timor-Leste -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Timor-Leste">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Timpani -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Timpani">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Togo -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Togo">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tonga -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tonga">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TradJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TradJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TraditionalCountryMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TraditionalCountryMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TranceMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TranceMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TrapMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TrapMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tread -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tread">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Triangle -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Triangle">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TrinidadAndTobago -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TrinidadAndTobago">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Trombone -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Trombone">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TruckDrivingCountry -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TruckDrivingCountry">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Trumpet -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Trumpet">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tuba -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tuba">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tunisia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tunisia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Turkey -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Turkey">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Turkmenistan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Turkmenistan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#TurksAndCaicosIsland -->
+
+    <owl:Class rdf:about="http://www.singonto.org#TurksAndCaicosIsland">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Turntablism -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Turntablism">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Tuvalu -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Tuvalu">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#U.S.A -->
+
+    <owl:Class rdf:about="http://www.singonto.org#U.S.A">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#UKDrill -->
+
+    <owl:Class rdf:about="http://www.singonto.org#UKDrill">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#UKgarage -->
+
+    <owl:Class rdf:about="http://www.singonto.org#UKgarage">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Uganda -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Uganda">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ukraine -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ukraine">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Ukulele -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Ukulele">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#UndergroundHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#UndergroundHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#UnitedArabEmirates -->
+
+    <owl:Class rdf:about="http://www.singonto.org#UnitedArabEmirates">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#UnitedKingdom -->
+
+    <owl:Class rdf:about="http://www.singonto.org#UnitedKingdom">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#European"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#UnitedStatesVirginIslands -->
+
+    <owl:Class rdf:about="http://www.singonto.org#UnitedStatesVirginIslands">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#NorthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Uzbekistan -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Uzbekistan">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Vanuatu -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Vanuatu">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Oceania"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Veena -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Veena">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Venezuela -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Venezuela">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#VideoGameMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#VideoGameMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#ElectronicMusic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Vietnam -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Vietnam">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Viola -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Viola">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Violin -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Violin">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#WeastCoastHipHop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#WeastCoastHipHop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#HipHop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#WestCoastBlues -->
+
+    <owl:Class rdf:about="http://www.singonto.org#WestCoastBlues">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Blues"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#WestCoastJazz -->
+
+    <owl:Class rdf:about="http://www.singonto.org#WestCoastJazz">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Jazz"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Western -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Western">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#WesternSahara -->
+
+    <owl:Class rdf:about="http://www.singonto.org#WesternSahara">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#WesternSwing -->
+
+    <owl:Class rdf:about="http://www.singonto.org#WesternSwing">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Whamola -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Whamola">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#WonkyPop -->
+
+    <owl:Class rdf:about="http://www.singonto.org#WonkyPop">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Pop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Xylophone -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Xylophone">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#YachtRock -->
+
+    <owl:Class rdf:about="http://www.singonto.org#YachtRock">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Rock"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Yamen -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Yamen">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Year -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Year"/>
+    
+
+
+    <!-- http://www.singonto.org#Zambia -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Zambia">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Zimbabwe -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Zimbabwe">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Africa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Zither -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Zither">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#Zydeco -->
+
+    <owl:Class rdf:about="http://www.singonto.org#Zydeco">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#loungeMusic -->
+
+    <owl:Class rdf:about="http://www.singonto.org#loungeMusic">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#EasyListening"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.singonto.org#rruguay -->
+
+    <owl:Class rdf:about="http://www.singonto.org#rruguay">
+        <rdfs:subClassOf rdf:resource="http://www.singonto.org#SouthAmerica"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
